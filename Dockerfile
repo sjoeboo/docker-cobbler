@@ -3,7 +3,7 @@ FROM sjoeboo/baseimage:latest
 MAINTAINER mattthew.a.nicholson@gmail.com
 
 VOLUME /config
-VOLUME /data
+VOLUME /data 
 EXPOSE 80
 EXPOSE 443
 
