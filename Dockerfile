@@ -1,4 +1,3 @@
-#FROM centos:7
 FROM sjoeboo/baseimage:latest
 MAINTAINER mattthew.a.nicholson@gmail.com
 
