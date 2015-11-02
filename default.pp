@@ -1,11 +1,10 @@
 node default {
-  $packages = ['cobbler','cobbler-web','supervisor']
-  
+  $packages=hiera(packages,[])
   package { $packages:
     ensure => installed,
     notify => Exec['yum_clean_all']
   }
-  
+
   exec {'yum_clean_all':
     command     => '/usr/bin/yum clean all',
     refreshonly => true,
@@ -16,4 +15,5 @@ node default {
     require => Package['supervisor']
   }
 
+  #Cobbler settings
 }

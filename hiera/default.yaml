@@ -1,0 +1,11 @@
+---
+packages:
+  - cobbler
+  - cobbler-web
+  - supervisor
+  - syslinux
+cobbler::settings::allow_duplicate_hostnames:
+cobbler::settings::allow_duplicate_macs: 0
+cobbler::settings::allow_dynamic_settings: 0
+cobbler::settings::anamon_enabled: 0
+cobbler::settings::authn_pam_service: "login"

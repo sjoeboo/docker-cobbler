@@ -1,0 +1,9 @@
+---
+:backends:
+  - yaml
+
+:hierarchy:
+  - "default"
+
+:yaml:
+  :datadir: '/puppet/hiera'
