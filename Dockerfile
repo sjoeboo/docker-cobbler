@@ -1,8 +1,6 @@
 FROM sjoeboo/baseimage:latest
 MAINTAINER mattthew.a.nicholson@gmail.com
 
-
-VOLUME /var/lib/cobbler/
 EXPOSE 80
 EXPOSE 443
 
